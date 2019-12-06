@@ -42,6 +42,12 @@ class BooksController < ApplicationController
     end
   end
 
+  def user_books
+    @books = Book.where(:owner =>params[:id])
+    json_response(@books)
+
+  end
+
   # DELETE /books/:id
   def destroy
     @book.destroy
