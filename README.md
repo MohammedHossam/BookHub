@@ -8,7 +8,7 @@ The API is deployed through Heroku and fully fuctional at:
 https://thebookhubapi.herokuapp.com/
 
 # How to run the application ?
-1- Clone or download the repo.
+1- Clone or download the repo.\n
 2- Add Bookhub/config/local_env.yml config file containing only the following (replace <Your connection string> with you actual connection string) :
    CONN:<your connection string>
 3- Run bundle install to install dependencies.
