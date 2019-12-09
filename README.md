@@ -27,7 +27,7 @@ Bundler was used to manage dependenconfig ies all dependencies can be installed 
 only one config file was used as you need one environment variable to run the API ENV['CONN'] which should contain the connection string. More details in the How to run section.
 
 # Docker
-The API is dockerized. You can run it with one command yet you have to have docker installed correctly.
+The API is dockerized. You can run it with one command yet you have to have docker installed correctly and the config file inplace.
 
 You can use: docker-compose up to launch the API on localhost
 
